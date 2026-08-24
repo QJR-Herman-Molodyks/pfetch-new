@@ -343,8 +343,8 @@ get_os() {
                 (13*)    distro='macOS Ventura' ;;
 				(14*)    distro='macOS Sonoma' ;;
 				(15*)    distro='macOS Sequoia' ;;
-				(26*)    distro='macOS Tahoe' ;;
-				(27*)    distro='macOS Golden Gate";;
+				(26*)    distro='macOS Tahoe';;
+				(27*)    distro='macOS Golden Gate';;
                 (*)      distro='macOS' ;;
             esac
 
@@ -1539,7 +1539,7 @@ get_ascii() {
             read_ascii 1 <<-EOF
 				${c2}       .:'
 				${c2}    _ :'_
-				${c3} .'\`_\`-'_`.
+				${c3} .'\`_\`-'_\`.
 				${c1}:________.-'
 				${c1}:________:
 				${c4} :________\`-;
