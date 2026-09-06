@@ -326,6 +326,10 @@ get_os() {
             # the system has. As far as I'm aware there's no "dynamic" way
             # of grabbing this information.
             case $mac_version in
+				(10.0*)  distro='Mac OS X Cheetah' ;;
+				(10.1*)  distro='Mac OS X Puma' ;;
+			    (10.2*)  distro='Mac OS X Jaguar' ;;
+				(10.3*)  distro='Mac OS X Panther' ;;
                 (10.4*)  distro='Mac OS X Tiger' ;;
                 (10.5*)  distro='Mac OS X Leopard' ;;
                 (10.6*)  distro='Mac OS X Snow Leopard' ;;
